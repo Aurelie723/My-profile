@@ -1,77 +1,59 @@
-style.css
-h1 {
-	color: 23374d;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	letter-spacing: 1px;
-	font-size: 36px;
-}
-
-h2 {
-	color: 23374d;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: lighter;
-}
-
 body{
-	background-color: rgb(250, 250, 250);
-	background: f9f9f9;
-	color: rgb(50, 50, 50);
-	font-family: 'Lora', serif;
-	font-size: 16px;
+	background: #E4EEF3;
+	color: grey;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+
 }
 
-a {
-	text-decoration: none;
-	color: 1089ff;
-	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
-	transition: color 1s ease;
+h1,h2 {
+	font-family: Helvetica;
+	font-weight: lighter;
+	
 }
 
-a:hover {
-	color: pink;
+h1{
+	font-size: 30px;
+	font-weight: 400
+	color: #5B879D
 }
 
-/* Custom design with class */
+
+h2{
+	color: #5B879D
+}
+
+p{
+	color: grey;
+	letter-spacing: 0px;
+}
+
+a: hover {
+	color: #5B879D;
+}
+
+
+div{
+	background: #E4EEF3;
+    padding: 20px 30px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px #6EA4BF;
+    border-radius: 8px;
+}
+
+#profil {
+	border-radius: 70%;
+	box-shadow: 2px 2px 3px grey;
+}
+
+
 .container {
 	width: 700px;
 	margin: 40px auto;
 }
 
-@media (max-width: 960px){
-
-	.container{
-		width: 700px;
-	}
-}
-
-@media (max-width: 720px){
-
-	.container{
-		width: 500px;
-	}
-}
-
-@media (max-width: 540px){
-
-	.container{
-		width: 300px;
-	}
-}
-
-.card-white{
-	background-color: white;
-	padding: 40px;
-	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1)
-	border-radius: 4px;
-	margin: 40px 0px;
+.card-design{
 	text-align: center;
-}
-
-.img-circle{
-	border-radius: 50%;
 }
 
 .list-inline{
@@ -79,50 +61,27 @@ a:hover {
 	padding-left: 0px;
 }
 
-.list-inline li{
+.list-inline li {
 	display: inline;
-	padding: 10px;
+	padding: 10px
 }
 
-.COMPETENCES{
-	display: inline;
-	list-style: none;
+.list-inline i {
+	font-size: 20px; 
+	color: #6EA4BF;
 }
 
-.FORMATIONS{
-	display: inline;
-	list-style: none;
-}
-.EXPERIENCES{
-	display: inline;
-	list-style: none;
+.list-inline i:hover {
+	font-size: 30px; 
+	color: #6EA4BF;
 }
 
-.list-inline i{
-	font-size: 50px;
-}
 
-.form-example form{
-    display: table;
-}
 
-.form-example div{
-    display: table-row;
-}
 
-label, input {
-    display: table-cell;
-    margin-bottom: 10px;
-}
 
-label {
-    padding-right: 10px;
-}
 
-.form-example{
-	padding-left: 200px;
-}
 
-.titre{
-	text-align: center;
-}
+
+
+
